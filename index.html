@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webtest101</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Kritesh Thapa, Kritesh Portfolio, Kritesh, Portfolio">
+    <meta name="description" content="Yes!!! This is my personal portfolio build by my self.">
+    <meta name="author" content="Kritesh Thapa">
+    <script src="https://kit.fontawesome.com/5045e83b56.js"></script>
+    <link rel="stylesheet" href="websitestyle.css">
+  </head>
+  <body>
+    <div class = "mainbody">
+      <div class = "responsnav">
+        <div class = "mtimes"><!--== Responsive Nav Fa Times =========-->
+          <i class = "fas fa-times fatimes0" onclick = "clickbars()"></i>
+        </div>
+        <ul class = "navul"><!--== Responsive Nav Unorder List =========-->
+          <li class = "liis rel"><span class = "abs"></span><a href = "index.html" class = "ahrs ahrsactive">Home</a></li>
+          <li class = "liis rel"><span class = "abs"></span><a href = "resume.html" class = "ahrs">Resume</a></li>
+          <li class = "liis rel"><span class = "abs"></span><a href = "project.html" class = "ahrs">Project</a></li>
+          <li class = "liis"><a href = "#" class = "ahrs">Contact</a></li>
+        </ul>
+      </div>
+      <div class = "page1 pages rel">
+        <span class = "line1 lines abs"></span>
+        <span class = "line2 lines abs"></span>
+        <div class = "p1room1 p1rooms rel"><!-- /////=====/////====///// Room 01 /////=====/////====///// -->
+          <div class = "title rel"><!-- ========== Nav Title ========== -->
+            Kritesh Thapa<br/>
+            <span class = "abs">Web Developer/ Designer</span>
+          </div>
+          <div class = "navbox"><!-- ========== Nav Unorder List ========== -->
+            <ul class = "navul">
+              <li class = "liis"><a href = "index.html" class = "ahrs ahrsactive">Home</a></li>
+              <li class = "liis"><a href = "resume.html" class = "ahrs">Resume</a></li>
+              <li class = "liis"><a href = "project.html" class = "ahrs">Project</a></li>
+              <li class = "liis"><a href = "#" class = "ahrs">Contact</a></li>
+            </ul>
+          </div>
+          <div class = "mfabars abs"><!-- ========== Nav Fa Bars ========== -->
+            <i class = "fas fa-bars fabars0" onclick = "clickbars()"></i>
+          </div>
+        </div>
+        <div class = "p1room2 p1rooms rel"><!-- /////=====/////====///// Room 02 /////=====/////====///// -->
+          <div class = "profiletitle"><!-- ========== Profile Title and Buttons ========== -->
+            <div class = "prftitle rel">
+              Hello,<br/>
+              <span class = "abs">a bit about me:</span>
+            </div>
+            <div class = "buttonbox">
+              <a href = "resume.html" class = "button3s">MY RESUME</a>
+              <a href = "project.html" class = "button3s">MY WORK</a>
+              <a href = "resume.html" class = "button3s">MY SKILL</a>
+            </div>
+          </div>
+          <div class = "profilepicture"><!-- ========== Profile Picure ========== -->
+            <img src = "image/profile00.jpg" class = "profileimg">
+            <div class = "prfdetails">
+              <table class = "profiletable ins">
+                <tr>
+                  <td><b>Name:</b></td>
+                  <td>Kritesh Thapa</td>
+                </tr>
+                <tr>
+                  <td><b>Age:</b></td>
+                  <td>18 years</td>
+                </tr>
+                <tr>
+                  <td><b>Address:</b></td>
+                  <td>Kusunti, Lalitpur, Nepal</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class = "profileinfo"><!-- ========== Profile Picture ========== -->
+            I am an all round web developer. I am a junior programmer with good knowledge of front-end techniques. 
+            I love structure and order and I also stand for quality. 
+            I love spending time on fixing little details and optimizing web apps. 
+            Also I like working in a team, you'll learn faster and much more. 
+            As the saying goes: 'two heads are better than one'.
+          </div>
+        </div>
+        <div class = "p1room3 p1rooms rel"><!-- /////=====/////====///// Room 03 /////=====/////====///// -->
+          <div class = "inrfooter">
+            <div class = "footp1 footps rel"><!-- ========== Footer Phone Number ========== -->
+              <i class="fas fa-phone-alt footericon"></i>
+              <span class = "abs">Call<br/>+977 9818863189</span>
+            </div>
+            <div class = "footp2 footps rel"><!-- ========== Footer Contact Email ========== -->
+              <i class="far fa-envelope footericon"></i>
+              <span class = "abs">Contact<br/>herethapamagar@gmail.com</span>
+            </div>
+            <div class = "footp3 footps rel"><!-- ========== Footer Social Media Link   ========== -->
+              <i class="far fa-user-circle footericon"></i>
+              <span class = "abs">Follow me<br/>
+                <a href = "#" class = "iconlink"><i class="fab fa-facebook-f inriconlink"></i></a>
+                <a href = "#" class = "iconlink"><i class="fab fa-instagram inriconlink"></i></a>
+                <a href = "#" class = "iconlink"><i class="fab fa-github inriconlink"></i></a>
+              </span>
+            </div>
+            <div class = "footp4 footps rel"><!-- ========== Footer It belongs to Kritesh Thapa Magar ========== -->
+              <i class="far fa-copyright footericon"></i>
+              <span class = "abs">Copyright &copy Kritesh Thapa. All rights reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+      var responsnav0x = document.querySelector(".responsnav");
+      function clickbars(){$(responsnav0x).toggle("fade",400);}
+      function clicktimes(){$(responsnav0x).toggle("fade",400);}
+      /*
+      https://www.wix.com/website-template/view/html/1676?siteId=a2b2ea31-fa89-4af6-
+      839a-0152c05a239e&metaSiteId=25696c7e-f948-43cc-a307-463d74bcc52d&originUrl=https
+      %3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fportfolio-cv&tpClick=view_button
+      */
+    </script>
+  </body>
+</html>
